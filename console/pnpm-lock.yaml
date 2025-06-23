@@ -37,8 +37,8 @@ importers:
         version: 3.3.4
     devDependencies:
       '@halo-dev/ui-plugin-bundler-kit':
-        specifier: https://pkg.pr.new/@halo-dev/ui-plugin-bundler-kit@84c6f60
-        version: https://pkg.pr.new/@halo-dev/ui-plugin-bundler-kit@84c6f60(@rsbuild/core@1.3.22)(@rsbuild/plugin-vue@1.0.7(@rsbuild/core@1.3.22)(@vue/compiler-sfc@3.3.4)(vue@3.3.4))(@vitejs/plugin-vue@3.2.0(vite@4.5.0(@types/node@16.18.35)(sass@1.63.3)(terser@5.43.0))(vue@3.3.4))(axios@1.6.2)(vite@4.5.0(@types/node@16.18.35)(sass@1.63.3)(terser@5.43.0))
+        specifier: 2.21.1
+        version: 2.21.1(@rsbuild/core@1.3.22)(@rsbuild/plugin-vue@1.0.7(@rsbuild/core@1.3.22)(@vue/compiler-sfc@3.3.4)(vue@3.3.4))(@vitejs/plugin-vue@3.2.0(vite@4.5.0(@types/node@16.18.35)(sass@1.63.3)(terser@5.43.0))(vue@3.3.4))(axios@1.6.2)(vite@4.5.0(@types/node@16.18.35)(sass@1.63.3)(terser@5.43.0))
       '@iconify/json':
         specifier: ^2.2.76
         version: 2.2.76
@@ -286,9 +286,8 @@ packages:
   '@floating-ui/dom@0.1.10':
     resolution: {integrity: sha512-4kAVoogvQm2N0XE0G6APQJuCNuErjOfPW8Ux7DFxh8+AfugWflwVJ5LDlHOwrwut7z/30NUvdtHzQ3zSip4EzQ==}
 
-  '@halo-dev/api-client@https://pkg.pr.new/halo-dev/halo/@halo-dev/api-client@84c6f60':
-    resolution: {tarball: https://pkg.pr.new/halo-dev/halo/@halo-dev/api-client@84c6f60}
-    version: 2.21.0
+  '@halo-dev/api-client@2.21.0':
+    resolution: {integrity: sha512-8yzq9BKC6eLQeK+njbnhRfteR4FoY6mf7qq4EQI6xyC3oD27JwJhCvc1gkVNsA22Z14skCt2GrPRWnwX3VLV8Q==}
     peerDependencies:
       axios: ^1.7.x
 
@@ -304,9 +303,8 @@ packages:
       vue: ^3.2.37
       vue-router: ^4.0.16
 
-  '@halo-dev/ui-plugin-bundler-kit@https://pkg.pr.new/@halo-dev/ui-plugin-bundler-kit@84c6f60':
-    resolution: {tarball: https://pkg.pr.new/@halo-dev/ui-plugin-bundler-kit@84c6f60}
-    version: 2.21.0
+  '@halo-dev/ui-plugin-bundler-kit@2.21.1':
+    resolution: {integrity: sha512-u0liRKtu4sralQGsT3iBs6W14ai6jLn0ZHIEfCG6xdyDoAn7R9ml9sZwiua79cuUoNnTJiyQChsCQGkJr4GXXw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       '@rsbuild/core': ^1.0.0
@@ -2172,7 +2170,7 @@ snapshots:
     dependencies:
       '@floating-ui/core': 0.3.1
 
-  '@halo-dev/api-client@https://pkg.pr.new/halo-dev/halo/@halo-dev/api-client@84c6f60(axios@1.6.2)':
+  '@halo-dev/api-client@2.21.0(axios@1.6.2)':
     dependencies:
       axios: 1.6.2
       qs: 6.14.0
@@ -2188,9 +2186,9 @@ snapshots:
       vue: 3.3.4
       vue-router: 4.2.0(vue@3.3.4)
 
-  '@halo-dev/ui-plugin-bundler-kit@https://pkg.pr.new/@halo-dev/ui-plugin-bundler-kit@84c6f60(@rsbuild/core@1.3.22)(@rsbuild/plugin-vue@1.0.7(@rsbuild/core@1.3.22)(@vue/compiler-sfc@3.3.4)(vue@3.3.4))(@vitejs/plugin-vue@3.2.0(vite@4.5.0(@types/node@16.18.35)(sass@1.63.3)(terser@5.43.0))(vue@3.3.4))(axios@1.6.2)(vite@4.5.0(@types/node@16.18.35)(sass@1.63.3)(terser@5.43.0))':
+  '@halo-dev/ui-plugin-bundler-kit@2.21.1(@rsbuild/core@1.3.22)(@rsbuild/plugin-vue@1.0.7(@rsbuild/core@1.3.22)(@vue/compiler-sfc@3.3.4)(vue@3.3.4))(@vitejs/plugin-vue@3.2.0(vite@4.5.0(@types/node@16.18.35)(sass@1.63.3)(terser@5.43.0))(vue@3.3.4))(axios@1.6.2)(vite@4.5.0(@types/node@16.18.35)(sass@1.63.3)(terser@5.43.0))':
     dependencies:
-      '@halo-dev/api-client': https://pkg.pr.new/halo-dev/halo/@halo-dev/api-client@84c6f60(axios@1.6.2)
+      '@halo-dev/api-client': 2.21.0(axios@1.6.2)
       '@rsbuild/core': 1.3.22
       '@rsbuild/plugin-vue': 1.0.7(@rsbuild/core@1.3.22)(@vue/compiler-sfc@3.3.4)(vue@3.3.4)
       '@vitejs/plugin-vue': 3.2.0(vite@4.5.0(@types/node@16.18.35)(sass@1.63.3)(terser@5.43.0))(vue@3.3.4)
